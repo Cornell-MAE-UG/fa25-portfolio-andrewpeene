@@ -3,10 +3,10 @@ layout: project
 title: Actuator Problem
 description: 
 technologies: []
-image: /assets/images/2020portfolio-load.png
+image: /assets/images/actuator.jpg
 ---
 
-![Main mechanism image](/assets/images/actuator.jpeg)
+![Main mechanism image](/assets/images/2020portfolio-load.png)
 
 For this course project, we had to engineer a mechanism that fit within a defined 2D workspace. Using a single rigid link, three pin joints, and a linear actuator selected from a real manufacturer catalog, our goal was to design a system capable of raising the greatest possible load to the highest achievable position. The assignment utilized mechanical analysis to produce a fully functional lifting mechanism.
 
@@ -60,7 +60,9 @@ My static analysis process:
 
 ### c) Final Rigid Mechanism Design
 
-![Final rigid mechanism rendering](/assets/images/2020portfolio-dist-load.png)
+
+
+![Main mechanism image](/assets/images/2020portfolio-load.png)
 
 This figure illustrates the overall geometry of the lifting mechanism within the 150 cm × 50 cm design envelope. Points A, B, and C represent the three pin connections: the bar is fixed to the ground at A, the actuator attaches to the bar at B, and its base is pinned to the ground at C, allowing it to rotate freely. The sketch shows the actuator at a representative configuration, forming an angle φ with the ground while the bar is at angle θ. The applied load W acts near the bar’s upper region. On the right, the cross-section drawing provides key dimensions for the bar geometry, including a 50 mm total height and 25 mm outer width, with a 21 mm × 46 mm internal hollow. These dimensions and pin placements define the kinematics and allowable range of motion for the system.
 
@@ -84,25 +86,88 @@ Assumptions:
 
 For a cantilever with tip load \(F\):
 
-```text
-δ_max = (F * L^3) / (3 * E * I)
+```math
+δ_\text{max} = F  L^3 / 3  E  I
 ```
 
-### b) Beam Design to limit deflection below 2% of length
+For this mechanism, the bar behaves as a simply-supported beam with a point load located between the supports. The correct maximum deflection expression is:
 
-Requirement:
-
-```text
-δ_max < 0.02 * L
-```
-
-To satisfy this, I selected a cross-section and material such that:
-
-```text
-I > (F * L^3) / (3 * E * 0.02 * L)
+```math
+δ_\text{max} = P  a^2  b^2 / 3  E  I  L
 ```
 Where:
 
 - L is the distance between A and B 
 - a is the distance from A to the applied load
-- 
+- b = L - a
+
+
+---
+
+### b) Beam Design to limit deflection below 2% of length
+
+Requirement:
+
+```math
+δ_\text{max} < 0.02 \cdot L
+```
+
+To satisfy this, I selected a cross-section and material such that:
+
+```math
+I > F  L^3 / 3  E \cdot 0.02  L
+```
+I evaluated several beam profiles (e.g., rectangular aluminum tube, hollow steel section) and chose the most mass-efficient design meeting the deflection limit.
+
+ Final Choice:
+
+Material: 6061-T6 Aluminium rectangular tube
+Cross-section: 25mm x 50mm outer, 2mm wall thickness
+
+Second moment of area:
+```math
+I = 3.73 \cdot 10^\text{-6} \text{m}^4
+```
+
+Beam mass:
+```math
+\text{m} = 0.64 \text{kgm}^\text{-1}
+```
+
+### c) Final Beam Design (flexible)
+
+![Final rigid mechanism rendering](/assets/images/2020portfolio-dist-load.png)
+
+#### Beam Deflection Example
+
+Geometry:
+
+- Beam span between pins A and B: L
+- Point load applied at distance a from A
+- Remaining distance to B: b = L - a
+- Material modulus: E
+- Second moment of area: I
+
+Reaction forces:
+
+```math
+R_A = P\cdot b/L
+
+```
+```math
+R_B = P\cdot a/L
+```
+Maximum Deflection point:
+
+For 0 ≤ x ≤ a:
+
+```math
+v(x) = (P  b  x / (6  E  I  L)) \cdot (L^2 - b^2 - x^2)
+```
+
+For a ≤ x ≤ L:
+```math
+v(x) = (P  a  (L - x) / (6  E  I  L)) \cdot (2Lx - x^2 - a^2)
+```
+
+#### End of Report
