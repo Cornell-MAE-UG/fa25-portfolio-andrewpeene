@@ -86,14 +86,14 @@ Assumptions:
 
 For a cantilever with tip load \(F\):
 
-```math
-δ_\text{max} = F  L^3 / 3  E  I
+```text
+δ_max = (F * L^3) / (3 * E * I)
 ```
 
 For this mechanism, the bar behaves as a simply-supported beam with a point load located between the supports. The correct maximum deflection expression is:
 
-```math
-δ_\text{max} = P  a^2  b^2 / 3  E  I  L
+```text
+δ_max = (P * a^2 * b^2) / (3 * E * I * L)
 ```
 Where:
 
@@ -108,13 +108,13 @@ Where:
 
 Requirement:
 
-```math
+```text
 δ_\text{max} < 0.02 \cdot L
 ```
 
 To satisfy this, I selected a cross-section and material such that:
 
-```math
+```text
 I > F  L^3 / 3  E \cdot 0.02  L
 ```
 I evaluated several beam profiles (e.g., rectangular aluminum tube, hollow steel section) and chose the most mass-efficient design meeting the deflection limit.
@@ -125,13 +125,13 @@ Material: 6061-T6 Aluminium rectangular tube
 Cross-section: 25mm x 50mm outer, 2mm wall thickness
 
 Second moment of area:
-```math
-I = 3.73 \cdot 10^\text{-6} \text{m}^4
+```text
+I = 3.73 * 10^(-6) m^4
 ```
 
 Beam mass:
-```math
-\text{m} = 0.64 \text{kgm}^\text{-1}
+```text
+m = 0.64 kg/m
 ```
 
 ### c) Final Beam Design (flexible)
@@ -150,24 +150,23 @@ Geometry:
 
 Reaction forces:
 
-```math
-R_A = P\cdot b/L
-
+```text
+R_A = P * b/L
 ```
-```math
-R_B = P\cdot a/L
+```text
+R_B = P * a/L
 ```
-Maximum Deflection point:
+Deflection Curve:
 
 For 0 ≤ x ≤ a:
 
-```math
-v(x) = (P  b  x / (6  E  I  L)) \cdot (L^2 - b^2 - x^2)
+```text
+v(x) = (P * b * x / (6 * E * I * L)) * (L^2 - b^2 - x^2)
 ```
 
 For a ≤ x ≤ L:
-```math
-v(x) = (P  a  (L - x) / (6  E  I  L)) \cdot (2Lx - x^2 - a^2)
+```text
+v(x) = (P * a * (L - x) / (6 * E * I * L)) * (2Lx - x^2 - a^2)
 ```
 
 #### End of Report
