@@ -6,31 +6,27 @@ technologies: []
 image: /assets/images/full_HE.jpeg
 ---
 
-![Image]({{"/assets/images/heat-exchanger-diagram.png"|relative_url}})
+A heat exchanger is a device that transfers thermal energy between two fluids while keeping them physically separate. One fluid is hotter and releases heat, and the other is cooler and absorbs that heat. They move through different channels, such as tubes or plates, divided by a solid wall that conducts heat but prevents mixing. As they pass through the exchanger, the temperature difference between the fluids drives heat from the hotter stream to the colder one.
 
 <img src="{{'/assets/images/heat-exchanger-diagram.png' | relative_url }}" alt="Heat exchanger diagram" style="max-width: 700px; width: 100%; height: auto;">
 
-
-TEST_2.43
-
-A heat exchanger is a device that transfers thermal energy between two fluids while keeping them physically separate. One fluid is hotter and releases heat, and the other is cooler and absorbs that heat. They move through different channels, such as tubes or plates, divided by a solid wall that conducts heat but prevents mixing. As they pass through the exchanger, the temperature difference between the fluids drives heat from the hotter stream to the colder one.
 
 The way the fluids flow determines how the exchanger performs. In parallel flow, both fluids enter from the same side and travel in the same direction, so the temperature difference is highest at the start and drops off quickly. In counter-flow, the fluids travel in opposite directions, which keeps the temperature difference more consistent and improves overall heat transfer.
 
 In general, a heat exchanger’s role is to transfer thermal energy efficiently for heating, cooling, or energy recovery in applications like power plants, refrigeration systems, car radiators, and a wide range of industrial processes.
 
-![Image](/assets/images/counter-v-parallel.png)
+<img src="{{'/assets/images/counter-v-parallel.png' | relative_url }}" alt="Heat exchanger diagram" style="max-width: 700px; width: 100%; height: auto;">
 
 #### Data:
 
 My group and I conducted two experimental tests: one using a counterflow configuration and one using a parallel flow configuration. For each test, we recorded the initial and final temperatures of the hot reservoir, the cold reservoir, and the heat exchanger.
 
-![Image](/fa25-portfolio-andrewpeene/assets/images/thermo-table-he.png)
+<img src="{{'/assets/images/thermo-table-he.png' | relative_url }}" alt="Heat exchanger diagram" style="max-width: 700px; width: 100%; height: auto;">
 
-
-| | |
-|---|---|
-| ![Image](../assets/images/full_HE.jpeg) | ![Image](/assets/images/empty_HE.jpeg) |
+<div style="display:flex; gap:16px; flex-wrap:wrap;">
+  <img src="{{ '/assets/images/full_HE.jpeg' | relative_url }}" alt="Full heat exchanger" style="max-width: 340px; width: 100%; height: auto;">
+  <img src="{{ '/assets/images/empty_HE.jpeg' | relative_url }}" alt="Empty heat exchanger" style="max-width: 340px; width: 100%; height: auto;">
+</div>
 
 
 #### Analysis:
@@ -41,4 +37,4 @@ In the parallel-flow configuration, both fluids showed smaller temperature chang
 
 Overall, counter-flow consistently produced larger temperature shifts and higher cold outlet temperatures, while parallel flow produced smaller changes and no temperature crossing. These outcomes match the expected thermal behavior of each configuration. Counter-flow preserves a strong temperature difference throughout the exchanger, enabling more complete heat transfer, whereas parallel flow loses its gradient early on, restricting performance. Both setups behaved exactly as theory predicts, clearly demonstrating the contrast between the two designs.
 
-![Image](../assets/images/group_photo.jpeg)
+<img src="{{'/assets/images/group_photo.jpeg' | relative_url }}" alt="Heat exchanger diagram" style="max-width: 700px; width: 100%; height: auto;">
