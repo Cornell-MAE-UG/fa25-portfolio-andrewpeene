@@ -6,7 +6,9 @@ technologies: []
 image: /assets/images/full_HE.jpeg
 ---
 
-![Image]({{"/assets/images/full_HE.jpeg"|relative_url}})
+![Image]({{"/assets/images/heat-exchanger-diagram.png"|relative_url}})
+
+<img src="{{'/assets/images/heat-exchanger-diagram.png' | relative_url }}" alt="Heat exchanger diagram" style="max-width: 700px; width: 100%; height: auto;">
 
 
 TEST_2.43
