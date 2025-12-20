@@ -64,6 +64,7 @@ My static analysis process:
 
 ![Main mechanism image](/assets/images/2020portfolio-load.png)
 
+
 This figure illustrates the overall geometry of the lifting mechanism within the 150 cm × 50 cm design envelope. Points A, B, and C represent the three pin connections: the bar is fixed to the ground at A, the actuator attaches to the bar at B, and its base is pinned to the ground at C, allowing it to rotate freely. The sketch shows the actuator at a representative configuration, forming an angle φ with the ground while the bar is at angle θ. The applied load W acts near the bar’s upper region. On the right, the cross-section drawing provides key dimensions for the bar geometry, including a 50 mm total height and 25 mm outer width, with a 21 mm × 46 mm internal hollow. These dimensions and pin placements define the kinematics and allowable range of motion for the system.
 
 ---
