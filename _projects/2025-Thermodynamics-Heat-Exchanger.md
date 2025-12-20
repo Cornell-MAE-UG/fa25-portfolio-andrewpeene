@@ -6,9 +6,10 @@ technologies: []
 image: /assets/images/full_HE.jpeg
 ---
 
-![Image](/fa25-portfolio-andrewpeene/assets/images/heat-exchanger-diagram.png)
+![Image]({{"/assets/images/full_HE.jpeg"|relative_url}})
 
-TEST_2.37
+
+TEST_2.39
 
 A heat exchanger is a device that transfers thermal energy between two fluids while keeping them physically separate. One fluid is hotter and releases heat, and the other is cooler and absorbs that heat. They move through different channels, such as tubes or plates, divided by a solid wall that conducts heat but prevents mixing. As they pass through the exchanger, the temperature difference between the fluids drives heat from the hotter stream to the colder one.
 
