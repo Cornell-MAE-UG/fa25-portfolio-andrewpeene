@@ -9,7 +9,7 @@ image: /assets/images/full_HE.jpeg
 ![Image]({{"/assets/images/full_HE.jpeg"|relative_url}})
 
 
-TEST_2.39
+TEST_2.43
 
 A heat exchanger is a device that transfers thermal energy between two fluids while keeping them physically separate. One fluid is hotter and releases heat, and the other is cooler and absorbs that heat. They move through different channels, such as tubes or plates, divided by a solid wall that conducts heat but prevents mixing. As they pass through the exchanger, the temperature difference between the fluids drives heat from the hotter stream to the colder one.
 
@@ -23,7 +23,7 @@ In general, a heat exchanger’s role is to transfer thermal energy efficiently 
 
 My group and I conducted two experimental tests: one using a counterflow configuration and one using a parallel flow configuration. For each test, we recorded the initial and final temperatures of the hot reservoir, the cold reservoir, and the heat exchanger.
 
-![Image](../assets/images/thermo-table-he.png)
+![Image](/fa25-portfolio-andrewpeene/assets/images/thermo-table-he.png)
 
 
 | | |
