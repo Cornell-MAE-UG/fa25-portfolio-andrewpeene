@@ -1,13 +1,13 @@
 ---
 layout: project
-title: "Mechanical Removal Systems for Spotted Lanternfly in Vineyards"
+title: "Proposed Methods of Spotted Lantern Fly Removal"
 description: "Concept development of mechanical removal and deterrence systems to mitigate Spotted Lanternfly damage in grape production."
 date: 2026-02-21
 thumbnail: /assets/images/SLF.jpg
-tags: [Mechanical Design, Agricultural Engineering, Concept Development]
+tags: [Mechanical Design, Mechanical Engineering, Concept Development]
 ---
 
-## Client Outreach Summary
+## Client Outline and Pitch
 
 **Clients:**  
 - Cornell CALS Extension  
@@ -131,3 +131,16 @@ Elsensohn, Johanna E. et al. (2024). Evidence supporting Spotted Lanternfly hitc
 - Evaluate energy requirements for field deployment
 - Explore modular prototype concepts for both approaches
 - Perform concept selection analysis based on feasibility and vineyard integration
+
+
+
+## Client Outreach Document (PDF)
+
+<iframe
+  src="/assets/Client-Outline-and-Pitch.pdf"
+  style="width: 100%; height: 900px; border: 0;"
+>
+</iframe>
+
+If the PDF doesn’t display in your browser, download it here:
+[Download the PDF](/assets/Client-Outline-and-Pitch.pdf)
