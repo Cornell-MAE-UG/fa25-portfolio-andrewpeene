@@ -13,13 +13,57 @@ This MAE 2250 project developed a mechanical removal method for spotted lanternf
 
 The central design challenge was removing SLF from grapevines without damaging vines, contaminating grapes, or relying on chemical pesticides that are ineffective against SLF and may harm grape plants.
 
+<style>
+  .milestone-accordion {
+    clear: both;
+    margin: 2rem 0;
+  }
+
+  .milestone-accordion details {
+    border: 1px solid #d8dbe3;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .milestone-accordion summary {
+    cursor: pointer;
+    padding: 0.9rem 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    color: #3a3f58;
+    background: #f7f8fa;
+  }
+
+  .milestone-accordion summary:hover {
+    background: #eef0f5;
+  }
+
+  .milestone-accordion details[open] summary {
+    border-bottom: 1px solid #d8dbe3;
+  }
+
+  .milestone-content {
+    padding: 1rem;
+  }
+
+  .milestone-content > :first-child {
+    margin-top: 0;
+  }
+
+  .milestone-content > :last-child {
+    margin-bottom: 0;
+  }
+</style>
+
 ## Milestones
 
-- [Client Pitch](#client-pitch)
-- [Functional Prototype](#functional-prototype)
-- [Client Report](#client-report)
+<div class="milestone-accordion">
 
-## Client Pitch
+<details id="client-pitch" markdown="1">
+<summary>Client Pitch</summary>
+<div class="milestone-content" markdown="1">
 
 **Deliverable:** [Client Outline and Pitch PDF]({{ '/assets/Client-Outline-and-Pitch.pdf' | relative_url }})
 
@@ -36,7 +80,12 @@ The pitch proposed two possible solution directions. The first was a suction-bas
 
 We selected the suction-device path as the stronger direction because it aligned more directly with existing vineyard operations. A tractor- or harvester-mounted device could be used during regular vineyard passes, reducing labor while avoiding direct mechanical contact with the plants.
 
-## Functional Prototype
+</div>
+</details>
+
+<details id="functional-prototype" markdown="1">
+<summary>Functional Prototype</summary>
+<div class="milestone-content" markdown="1">
 
 **Deliverable:** [The Grape Poster PDF]({{ '/assets/The%20Grape%20Poster%20%2836%20x%2048%20in%29.pdf' | relative_url }})
 
@@ -55,7 +104,12 @@ The refined prototype replaced the propeller with an impeller and motor casing t
 
 The prototype was tested for endurance, debris tolerance, and mounting strength. It operated continuously for 30 minutes without a performance drop, captured debris without visible internal damage, and supported 500 g of added mass at the mounting geometry without structural failure. These results supported the mechanical feasibility of the concept, while also showing that suction strength and intake geometry needed more refinement.
 
-## Client Report
+</div>
+</details>
+
+<details id="client-report" markdown="1">
+<summary>Client Report</summary>
+<div class="milestone-content" markdown="1">
 
 **Deliverable:** [ODP 6 Exhibit and Client Report PDF]({{ '/assets/ODP%206_%20Exhibit%20and%20Client%20Report.pdf' | relative_url }})
 
@@ -97,3 +151,22 @@ Next steps should focus on:
 - Evaluating durability under real tractor or harvester vibration and attachment-point stress.
 
 Overall, the project supports continued development of a tractor-mounted suction device as a scalable SLF removal method, but airflow optimization and vine-height coverage must be solved before vineyard field trials.
+
+</div>
+</details>
+
+</div>
+
+<script>
+  document.querySelectorAll(".milestone-accordion details").forEach((panel) => {
+    panel.addEventListener("toggle", () => {
+      if (!panel.open) return;
+
+      document.querySelectorAll(".milestone-accordion details").forEach((otherPanel) => {
+        if (otherPanel !== panel) {
+          otherPanel.open = false;
+        }
+      });
+    });
+  });
+</script>
