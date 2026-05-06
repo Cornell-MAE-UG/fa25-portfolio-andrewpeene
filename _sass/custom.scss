@@ -54,7 +54,8 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  width: min(92%, 1100px);
+  max-width: 1100px;
 }
 
 .project-item img {
