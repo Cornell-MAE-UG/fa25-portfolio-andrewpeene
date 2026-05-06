@@ -6,7 +6,7 @@ date: 2026-02-21
 image: /assets/images/SLF.jpg
 imagealt: "Spotted lanternfly on a surface"
 tags: [Mechanical Design, Mechanical Engineering, Concept Development]
-technologies: [CAD, Prototyping, Mechanical Testing, Design Validation]
+technologies: [Fusion 360, Prototyping, Mechanical Testing, Design Validation]
 ---
 
 This MAE 2250 project developed a mechanical removal method for spotted lanternflies (SLF) in grape vineyards. Our team, The Grape, worked from an initial client pitch through functional prototyping and a final client report for stakeholders connected to Cornell CALS Extension, E&J Gallo Winery, and National Grape.
