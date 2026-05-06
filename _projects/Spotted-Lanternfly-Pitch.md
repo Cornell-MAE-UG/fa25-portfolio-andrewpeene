@@ -57,7 +57,7 @@ The central design challenge was removing SLF from grapevines without damaging v
   }
 </style>
 
-## Milestones
+
 
 <div class="milestone-accordion">
 
