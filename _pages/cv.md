@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-##### **Email:** [netID@cornell.edu](mailto:asp254@cornell.edu) | | | **Phone:** +1 (315) 884 7799
+##### **Email:** [asp254@cornell.edu](mailto:asp254@cornell.edu) | | | **Phone:** +1 (315) 884 7799
 ---
 
 #### Objective
@@ -28,19 +28,19 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, AutoCAD, Revit 
+- **Software:** Autodesk Fusion 360, AutoCAD, Revit, Draftsight
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing, Prototyping
 
 ---
 
 #### Projects
-- **[Project Title]**:  
+- **SLF Removal**:  
   *[Short Description]*  
   - Key Achievement 1  
   - Key Achievement 2  
 
-- **[Project Title]**:  
+- **2D Wind Tunnel Simulation**:  
   *[Short Description]*  
   - Key Achievement 1  
   - Key Achievement 2  
@@ -48,8 +48,13 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 ---
 
 #### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
+- **Crossover Solutions - Intern**  
+  [May, 2026] - [July, 2026]  
+  - Responsibility 1  
+  - Responsibility 2  
+
+- **Dart Enterprises - Intern**  
+  [June, 2025] - [August, 2025]  
   - Responsibility 1  
   - Responsibility 2  
 
