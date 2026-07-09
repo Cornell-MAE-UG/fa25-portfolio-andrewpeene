@@ -6,7 +6,7 @@ title: Andrew Peene
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/headshot.jpeg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/headshot.JPEG" | relative_url }}){: class="profile-image"}
 
  
 My name is Andrew Peene, and I am a junior studying Mechanical Engineering at Cornell University with a minor in Aerospace Engineering. I am passionate about designing systems that solve practical engineering problems, particularly in aerospace and mechancial design.
