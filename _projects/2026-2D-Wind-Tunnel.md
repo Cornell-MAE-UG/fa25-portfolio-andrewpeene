@@ -5,9 +5,8 @@ description: A self-directed fluid simulation built to connect classroom fluid m
 date: 2026-09-12
 image: /assets/images/2dtunnelflow.png
 imagealt: Velocity field and vortex wake behind an airfoil in the 2D Wind Tunnel
-gallery_image: /assets/images/2dtunnelgolfball.png
-gallery_imagealt: 2D Wind Tunnel interface showing flow around a golf-ball-inspired geometry
-gallery_image_fit: contain
+gallery_image: /assets/images/2dtunnelfront.png
+gallery_imagealt: 2D Wind Tunnel interface showing a simulated flow field
 hero_caption: Velocity magnitude and the developing vortex wake behind an airfoil.
 wide_hero: true
 tags: [Fluid Mechanics, Numerical Methods, Computational Engineering]
@@ -24,7 +23,7 @@ The project gave me a practical way to strengthen three skills at once: building
   <h3>Run the Wind Tunnel</h3>
   <p>Download the complete Python source code, pinned dependencies, and setup instructions to experiment with the simulation on your own computer.</p>
   <a class="download-button" href="{{ '/assets/downloads/2d-wind-tunnel.zip' | relative_url }}" download>Download 2D Wind Tunnel (.zip)</a>
-  <p class="download-note">Requires Python 3.11 or newer. This is an educational visualization tool, not validated CFD software.</p>
+  <p class="download-note">Requires Python 3.11 or newer.</p>
 </div>
 
 <figure class="project-figure">
