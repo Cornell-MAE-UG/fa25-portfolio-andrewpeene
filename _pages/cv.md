@@ -97,7 +97,7 @@ permalink: /cv/
   </section>
 
   <section class="cv-section" aria-labelledby="cv-projects">
-    <h2 id="cv-projects" class="cv-section-title">Selected Projects</h2>
+    <h2 id="cv-projects" class="cv-section-title">Projects</h2>
 
     <div class="cv-entry">
       <div class="cv-entry-header">
