@@ -168,6 +168,11 @@ footer {
 
 }
 
+.gallery-item img.gallery-image--contain {
+  object-fit: contain;
+  background: #08131f;
+}
+
 .gallery-item p {
   display: block;
   margin: 14px 0 0;

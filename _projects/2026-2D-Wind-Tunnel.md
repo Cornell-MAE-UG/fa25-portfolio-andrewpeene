@@ -5,6 +5,9 @@ description: A self-directed fluid simulation built to connect classroom fluid m
 date: 2026-09-12
 image: /assets/images/2dtunnelflow.png
 imagealt: Velocity field and vortex wake behind an airfoil in the 2D Wind Tunnel
+gallery_image: /assets/images/2dtunnelgolfball.png
+gallery_imagealt: 2D Wind Tunnel interface showing flow around a golf-ball-inspired geometry
+gallery_image_fit: contain
 hero_caption: Velocity magnitude and the developing vortex wake behind an airfoil.
 wide_hero: true
 tags: [Fluid Mechanics, Numerical Methods, Computational Engineering]
