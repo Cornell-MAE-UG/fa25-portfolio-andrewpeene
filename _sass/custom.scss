@@ -218,6 +218,47 @@ footer {
   margin-top: 2.25rem;
 }
 
+.project-download {
+  margin: 28px 0 34px;
+  padding: 24px;
+  border: 1px solid #cbd3e1;
+  border-left: 5px solid #3a3f58;
+  border-radius: 8px;
+  background: #eef1f7;
+}
+
+.project-download h3 {
+  margin: 0 0 10px;
+}
+
+.project-download p {
+  margin: 0 0 16px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 11px 18px;
+  border-radius: 6px;
+  background: #3a3f58;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.download-button:hover,
+.download-button:focus {
+  background: #25293b;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.project-download .download-note {
+  margin: 14px 0 0;
+  color: #565c72;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 700px) {
   .project-image {
     float: none;

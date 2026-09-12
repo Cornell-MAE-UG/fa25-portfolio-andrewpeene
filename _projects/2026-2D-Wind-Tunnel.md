@@ -17,6 +17,13 @@ The **2D Wind Tunnel** is a self-directed fluid simulation I built while taking 
 
 The project gave me a practical way to strengthen three skills at once: building intuition for fluid behavior, learning the numerical methods behind computational fluid dynamics, and becoming a more capable programmer. It also became an opportunity to learn how to use AI effectively during engineering development without treating it as a substitute for understanding or verification.
 
+<div class="project-download">
+  <h3>Run the Wind Tunnel</h3>
+  <p>Download the complete Python source code, pinned dependencies, and setup instructions to experiment with the simulation on your own computer.</p>
+  <a class="download-button" href="{{ '/assets/downloads/2d-wind-tunnel.zip' | relative_url }}" download>Download 2D Wind Tunnel (.zip)</a>
+  <p class="download-note">Requires Python 3.11 or newer. This is an educational visualization tool, not validated CFD software.</p>
+</div>
+
 <figure class="project-figure">
   <img src="{{ '/assets/images/2dtunnelui.png' | relative_url }}" alt="2D Wind Tunnel interface showing velocity flow around a NACA 4412 airfoil at negative twelve degrees angle of attack">
   <figcaption>The running desktop interface combines geometry and flow controls with live velocity visualization, simulation status, and performance data.</figcaption>
@@ -66,7 +73,7 @@ The project grew from a basic solver and plot into an interactive desktop flow l
 
 <figure class="project-figure">
   <img src="{{ '/assets/images/2dtunnelgolfball.png' | relative_url }}" alt="2D Wind Tunnel interface simulating flow past a golf-ball-inspired circular geometry">
-  <figcaption>Adding a golf-ball-inspired shape tested whether the same grid and boundary system could support more detailed geometry. This larger 620 × 260 case was captured at 1.1 FPS, clearly exposing the performance cost of resolution and shape detail.</figcaption>
+  <figcaption>The golf-ball-inspired geometry visibly disrupts the surrounding flow. Its dimples disturb the boundary layer so it can remain attached farther around the ball, reducing the size of the separated wake and therefore reducing pressure drag compared with a smooth sphere.</figcaption>
 </figure>
 
 The visualization also evolved as I learned what made a result useful. A single color field could show local speed, but directional traces and vortex-sensitive views made separation and wake behavior much easier to interpret. Controls were consolidated into the interface so experiments could be repeated without editing source values between runs.
