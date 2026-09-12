@@ -192,6 +192,32 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.project-hero,
+.project-figure {
+  margin: 24px 0 32px;
+}
+
+.project-hero img,
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
+}
+
+.project-hero figcaption,
+.project-figure figcaption {
+  margin-top: 10px;
+  color: #686d85;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.project-page--wide-hero h2 {
+  margin-top: 2.25rem;
+}
+
 @media (max-width: 700px) {
   .project-image {
     float: none;

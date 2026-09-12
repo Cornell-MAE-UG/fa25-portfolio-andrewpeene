@@ -2,11 +2,18 @@
 layout: default
 ---
 
-<article class="project-page">
+<article class="project-page{% if page.wide_hero %} project-page--wide-hero{% endif %}">
 
 <h1>{{ page.title }}</h1>
 
+{% if page.wide_hero %}
+<figure class="project-hero">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" />
+  {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+</figure>
+{% else %}
 <p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+{% endif %}
 
 {{ content }}
 
